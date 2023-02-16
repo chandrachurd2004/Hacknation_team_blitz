@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="title">
+        <h2>Water Tracker System</h2>
+        <p>
+          Here you can track the water quality, quantity and the efficiency of Water usage.
+        </p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./waterdrop.jpg" alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="Water Quality">Water Quality</button>
+            <button class="tab-btn" data-id="Water Quantity">Water Quantity</button>
+            <button class="tab-btn" data-id="Total Net water usage">Total Net water usage</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="Water Quality">
+              <h4>Water Quality</h4>
+              <p>
+                Your water quality is-
+              </p>
+              <ul>
+                <li><link rel="stylesheet" href="https://nodered.org/" /></li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="Water Quantity">
+              <h4>Water Quantity</h4>
+              <p>
+                <li>Water at inlet-</li><a href="https://nodered.org/" />this is the link</a>
+                <li>Water at outlet-</li><a href="https://nodered.org/" />this is the link</a>
+              </p>
+              <ul>
+                <li><link rel="stylesheet" href="https://nodered.org/" /></li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="Total Net water usage">
+              <h4>Total Net water usage</h4>
+              <p>
+                Your net water usage is-
+              
+              
+                <li><link href="https://nodered.org/" />this is the link</li>
+              
+              </p>
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
